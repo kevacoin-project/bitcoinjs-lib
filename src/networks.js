@@ -2,8 +2,8 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 // Updated for Kevacoin.
 exports.bitcoin = {
-  messagePrefix: '\x18Bitcoin Signed Message:\n',
-  bech32: 'bc',
+  messagePrefix: '\x18Kevacoin Signed Message:\n',
+  bech32: 'kva',
   bip32: {
     public: 0x01ada464,
     private: 0x01ad9cff,
@@ -13,8 +13,8 @@ exports.bitcoin = {
   wif: 0xb1,
 };
 exports.regtest = {
-  messagePrefix: '\x18Bitcoin Signed Message:\n',
-  bech32: 'bcrt',
+  messagePrefix: '\x18Kevacoin Signed Message:\n',
+  bech32: 'rkva',
   bip32: {
     public: 0x01ada466,
     private: 0x01ad9cfd,
@@ -24,8 +24,8 @@ exports.regtest = {
   wif: 0xef,
 };
 exports.testnet = {
-  messagePrefix: '\x18Bitcoin Signed Message:\n',
-  bech32: 'tb',
+  messagePrefix: '\x18Kevacoin Signed Message:\n',
+  bech32: 'tkva',
   bip32: {
     public: 0x01ada467,
     private: 0x01ad9cf0,

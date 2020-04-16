@@ -17,8 +17,8 @@ interface Bip32 {
 // Updated for Kevacoin.
 
 export const bitcoin: Network = {
-  messagePrefix: '\x18Bitcoin Signed Message:\n',
-  bech32: 'bc',
+  messagePrefix: '\x18Kevacoin Signed Message:\n',
+  bech32: 'kva',
   bip32: {
     public: 0x01ada464,
     private: 0x01ad9cff,
@@ -28,8 +28,8 @@ export const bitcoin: Network = {
   wif: 0xb1,
 };
 export const regtest: Network = {
-  messagePrefix: '\x18Bitcoin Signed Message:\n',
-  bech32: 'bcrt',
+  messagePrefix: '\x18Kevacoin Signed Message:\n',
+  bech32: 'rkva',
   bip32: {
     public: 0x01ada466,
     private: 0x01ad9cfd,
@@ -39,8 +39,8 @@ export const regtest: Network = {
   wif: 0xef,
 };
 export const testnet: Network = {
-  messagePrefix: '\x18Bitcoin Signed Message:\n',
-  bech32: 'tb',
+  messagePrefix: '\x18Kevacoin Signed Message:\n',
+  bech32: 'tkva',
   bip32: {
     public: 0x01ada467,
     private: 0x01ad9cf0,
