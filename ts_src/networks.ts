@@ -25,7 +25,7 @@ export const bitcoin: Network = {
   },
   pubKeyHash: 0x2d,
   scriptHash: 0x46,
-  wif: 0xb1,
+  wif: 0x8b,
 };
 export const regtest: Network = {
   messagePrefix: '\x18Kevacoin Signed Message:\n',
@@ -47,5 +47,5 @@ export const testnet: Network = {
   },
   pubKeyHash: 0x37,
   scriptHash: 0x41,
-  wif: 0xef,
+  wif: 0x3a,
 };
