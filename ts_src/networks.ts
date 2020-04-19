@@ -20,8 +20,8 @@ export const bitcoin: Network = {
   messagePrefix: '\x18Kevacoin Signed Message:\n',
   bech32: 'kva',
   bip32: {
-    public: 0x01ada464,
-    private: 0x01ad9cff,
+    public: 0x0488b21e,
+    private: 0x0488ade4,
   },
   pubKeyHash: 0x2d,
   scriptHash: 0x46,
@@ -31,8 +31,8 @@ export const regtest: Network = {
   messagePrefix: '\x18Kevacoin Signed Message:\n',
   bech32: 'rkva',
   bip32: {
-    public: 0x01ada466,
-    private: 0x01ad9cfd,
+    public: 0x043587cf,
+    private: 0x04358394,
   },
   pubKeyHash: 0x6f,
   scriptHash: 0xc4,
@@ -42,8 +42,8 @@ export const testnet: Network = {
   messagePrefix: '\x18Kevacoin Signed Message:\n',
   bech32: 'tkva',
   bip32: {
-    public: 0x01ada467,
-    private: 0x01ad9cf0,
+    public: 0x0488b21e,
+    private: 0x0488ade4,
   },
   pubKeyHash: 0x37,
   scriptHash: 0x41,
